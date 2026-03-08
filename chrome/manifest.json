@@ -1,15 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Site Blocker",
-  "version": "1.1",
-  "description": "Block unwanted websites. Right-click to add sites to your blocklist.",
+  "version": "2.0",
+  "description": "Block popup sites, ad domains, and malware. Ships with 4900+ domains from StevenBlack/hosts. Add your own via right-click.",
   "permissions": [
     "storage",
     "contextMenus",
     "tabs",
     "activeTab",
     "webNavigation",
-    "declarativeNetRequest"
+    "declarativeNetRequest",
+    "alarms"
   ],
   "host_permissions": ["<all_urls>"],
   "background": {
